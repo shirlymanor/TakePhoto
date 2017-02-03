@@ -1,5 +1,5 @@
 # TakePhoto
-Take photo/ choose from library and save photo with swift 3 
+**Take photo, choose from library and save photo with swift 3 
 
 To create a take a photo view controller:
 First add:
@@ -17,7 +17,7 @@ Now after adding the protocols:
 class TakePictureViewController: UIViewController, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
 
 Add the code to take a photo:
-
+```javascript
 @IBAction func takePhoto(_ sender: Any) {
         if UIImagePickerController.isSourceTypeAvailable(UIImagePickerControllerSourceType.camera)
         {
@@ -34,8 +34,8 @@ Add the code to take a photo:
         }
 
     }
-
-# If you are running the app with the simulator you will get the no camera.
+```
+** If you are running the app with the simulator you cannot use a camera and will get the no camera.**
 Try to run.
 You will get an error- read it
 It said to add a permission key to the info.plist
@@ -47,6 +47,7 @@ Same thing, you will get an error:
 Add NSPhotoLibraryUsageDescription to the info.plist choose type string and add your message to ask permission to access your photos library.
 
 Now add imagePickerController - This function happend when it's finished picking the photo
+```javascript
  func imagePickerController(_ picker: UIImagePickerController,
                                didFinishPickingMediaWithInfo info: [String : AnyObject])
     {
@@ -55,5 +56,5 @@ Now add imagePickerController - This function happend when it's finished picking
         imageView.image = chosenImage 
         dismiss(animated:true, completion: nil) 
     }
-
+```
 
