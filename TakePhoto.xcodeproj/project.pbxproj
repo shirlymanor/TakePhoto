@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		51EFC9781E44F4550024991C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EFC9771E44F4550024991C /* AppDelegate.swift */; };
-		51EFC97A1E44F4550024991C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EFC9791E44F4550024991C /* ViewController.swift */; };
 		51EFC97D1E44F4550024991C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51EFC97B1E44F4550024991C /* Main.storyboard */; };
 		51EFC97F1E44F4550024991C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51EFC97E1E44F4550024991C /* Assets.xcassets */; };
 		51EFC9821E44F4550024991C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51EFC9801E44F4550024991C /* LaunchScreen.storyboard */; };
+		51EFC98A1E44F4890024991C /* TakePictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51EFC9891E44F4890024991C /* TakePictureViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		51EFC9741E44F4550024991C /* TakePhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakePhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51EFC9771E44F4550024991C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		51EFC9791E44F4550024991C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		51EFC97C1E44F4550024991C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51EFC97E1E44F4550024991C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51EFC9811E44F4550024991C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51EFC9831E44F4550024991C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51EFC9891E44F4890024991C /* TakePictureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakePictureViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				51EFC9771E44F4550024991C /* AppDelegate.swift */,
-				51EFC9791E44F4550024991C /* ViewController.swift */,
 				51EFC97B1E44F4550024991C /* Main.storyboard */,
 				51EFC97E1E44F4550024991C /* Assets.xcassets */,
 				51EFC9801E44F4550024991C /* LaunchScreen.storyboard */,
 				51EFC9831E44F4550024991C /* Info.plist */,
+				51EFC9891E44F4890024991C /* TakePictureViewController.swift */,
 			);
 			path = TakePhoto;
 			sourceTree = "<group>";
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51EFC97A1E44F4550024991C /* ViewController.swift in Sources */,
+				51EFC98A1E44F4890024991C /* TakePictureViewController.swift in Sources */,
 				51EFC9781E44F4550024991C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
