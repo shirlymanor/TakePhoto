@@ -37,7 +37,7 @@ Add the code to take a photo:
 
     }
 ```
-** If you are running the app with the simulator you cannot use a camera and will get the no camera.**
+##### If you are running the app with the simulator you cannot use a camera and will get the no camera.#####
 Try to run.
 You will get an error- read it<br>
 It said to add a permission key to the info.plist
@@ -83,3 +83,4 @@ Finally Add a message that the photo been saves: <br>
         
     }
 ```
+Enjoy :smiley:
